@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111000100" textdirection="ltr" device="false" fontscale="100" kbshortcuts="true" skip_nav_enabled="true" chromeless="false" outputtype="ap" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00001000000" textdirection="ltr" device="false" fontscale="100" kbshortcuts="true" skip_nav_enabled="true" chromeless="false" outputtype="ap" theme="classic">
   <layouts>
-    <layout name="npxnabnsnfns10111000100" font="Articulate" controllayout="npxnabnsnfns10111000100" colorscheme="npxnabnsnfns10111000100" string_table="npxnabnsnfns10111000100" />
-    <layout name="pxabnsnfns10111000100" font="Articulate" controllayout="pxabnsnfns10111000100" colorscheme="npxnabnsnfns10111000100" string_table="npxnabnsnfns10111000100" />
-    <layout name="pxabnsnfns00001000100" font="Articulate" controllayout="pxabnsnfns00001000100" colorscheme="npxnabnsnfns10111000100" string_table="npxnabnsnfns10111000100" />
-    <layout name="pnxanbnsnfns10111000100" font="Articulate" controllayout="pnxanbnsnfns10111000100" colorscheme="npxnabnsnfns10111000100" string_table="npxnabnsnfns10111000100" />
-    <layout name="pxnanbnsnfns00001000101" font="Articulate" controllayout="pxnanbnsnfns00001000101" colorscheme="npxnabnsnfns10111000100" string_table="npxnabnsnfns10111000100" />
+    <layout name="npxnabnsnfns00001000000" font="Articulate" controllayout="npxnabnsnfns00001000000" colorscheme="npxnabnsnfns00001000000" string_table="npxnabnsnfns00001000000" />
+    <layout name="pxabnsnfns00001000000" font="Articulate" controllayout="pxabnsnfns00001000000" colorscheme="npxnabnsnfns00001000000" string_table="npxnabnsnfns00001000000" />
+    <layout name="pnxanbnsnfns00001000000" font="Articulate" controllayout="pnxanbnsnfns00001000000" colorscheme="npxnabnsnfns00001000000" string_table="npxnabnsnfns00001000000" />
+    <layout name="pxnanbnsnfns00001000001" font="Articulate" controllayout="pxnanbnsnfns00001000001" colorscheme="npxnabnsnfns00001000000" string_table="npxnabnsnfns00001000000" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +12,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Introduction" />
+              <option name="title_text" value="IRB Member Training" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -39,7 +38,7 @@
           </option>
           <option name="info_enabled" value="true">
             <options>
-              <option name="default" value="4ZA2xpfxYIs" />
+              <option name="default" value="4knxEMe5qNv" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -63,19 +62,24 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="true" />
-          <option name="seekbar" value="true">
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
             </options>
           </option>
           <option name="search" value="false" />
-          <option name="replay" value="true" />
-          <option name="pauseplay" value="true" />
+          <option name="replay" value="false" />
+          <option name="pauseplay" value="false" />
           <option name="enableKeyboardShortcuts" value="true" />
           <option name="elapsedandtotaltime" value="false" />
           <option name="use_fixed_output_size" value="true" />
           <option name="output_size_scale_percent" value="100" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -86,11 +90,11 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npxnabnsnfns10111000100">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="npxnabnsnfns00001000000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -109,31 +113,8 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000100">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="false" />
-    </control_layout>
-    <control_layout name="pxabnsnfns00001000100">
-      <control name="volume" enabled="true" />
+    <control_layout name="pxabnsnfns00001000000">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -155,11 +136,11 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns10111000100">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="pnxanbnsnfns00001000000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="false" />
@@ -178,8 +159,8 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pxnanbnsnfns00001000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="pxnanbnsnfns00001000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -203,7 +184,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns10111000100">
+    <colorscheme name="npxnabnsnfns00001000000">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1109,7 +1090,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns10111000100">
+    <string_table name="npxnabnsnfns00001000000">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to Menu</string>
@@ -1170,12 +1151,12 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="48sVKhiP6rx.281" displaytext="IRB Member Training" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.278" displaytext="IRB Tools and Reference" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.259" displaytext="IRB Defined" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.284" displaytext="IRB Chairs" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.275" displaytext="IRB Member Substitutions" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.266" displaytext="IRB Member Quorum" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.281" displaytext="IRB Member Training" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.278" displaytext="IRB Tools and Reference" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.259" displaytext="IRB Defined" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.284" displaytext="IRB Chairs" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.275" displaytext="IRB Member Substitutions" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.266" displaytext="IRB Member Quorum" expand="true" type="slide" />
         <slidelink slideid="_player.64EJqbfWtKe7.6jdOzaMim6r" displaytext="IRB: Establishing Quorum" expand="false" type="slide">
           <links>
             <slidelink slideid="64EJqbfWtKe7.6jdOzaMim6r.5yZXvGGThMr" displaytext="Establishing Quorum" expand="false" type="action" />
@@ -1185,15 +1166,16 @@
             <slidelink slideid="64EJqbfWtKe7.6jdOzaMim6r.6p7tnfptEnG" displaytext="9 Members" expand="false" type="action" />
           </links>
         </slidelink>
-        <slidelink slideid="48sVKhiP6rx.267" displaytext="IRB Member Expectations" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.282" displaytext="Confidentiality" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.261" displaytext="IRB Staff Roles Defined" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.262" displaytext="IRB Staff Roles Defined (2)" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.263" displaytext="IRB Staff Roles Defined (3)" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.264" displaytext="IRB Staff Roles Defined (4)" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.265" displaytext="IRB Member Term Limits" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.274" displaytext="IRB Member Annual Reviews" expand="true" type="slide" />
-        <slidelink slideid="48sVKhiP6rx.276" displaytext="Institutional Training Requirements" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.267" displaytext="IRB Member Expectations" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.282" displaytext="Confidentiality" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.261" displaytext="IRB Staff Roles Defined" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.262" displaytext="IRB Staff Roles Defined (2)" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.263" displaytext="IRB Staff Roles Defined (3)" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.264" displaytext="IRB Staff Roles Defined (4)" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.265" displaytext="IRB Member Term Limits" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.274" displaytext="IRB Member Annual Reviews" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.276" displaytext="Institutional Training Requirements" expand="true" type="slide" />
+        <slidelink slideid="4Z7RU3yvDpD.285" displaytext="IRB Member Training" expand="true" type="slide" />
       </links>
     </outline>
   </nav_data>
@@ -1201,7 +1183,7 @@
   <transcript_data />
   <glossary_data />
   <presenters>
-    <presenter id="4ZA2xpfxYIs" photo="" mobilephoto="" name="Bob Frenck MD" title="IRB Chair" email="robert.frenck@cchmc.org" biotext="">
+    <presenter id="4knxEMe5qNv" photo="" mobilephoto="" name="Bob Frenck, MD" title="Executive IRB Chair" email="robert.frenck@cchmc.org" biotext="">
       <bioHtml />
     </presenter>
   </presenters>
